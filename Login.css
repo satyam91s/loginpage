@@ -1,0 +1,256 @@
+/* CSS for Login.html file */
+.container {
+    background-color: rgb(138, 189, 190);
+    margin-right: 200px;
+    padding-left: 40px;
+    padding-right: 0px;
+
+    margin-left: 80px;
+
+
+
+}
+
+.maincontainer {
+    background-image: url(https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 7fr 2fr 1fr;
+
+}
+
+#set {
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    background-color: rgba(235, 234, 175, 0.831);
+    opacity: 0.8;
+    position: sticky;
+
+}
+
+.com {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.com1 {
+    margin-bottom: 40px;
+    margin-left: 90px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.punch {
+    font-size: 15px;
+    margin-left: 90px;
+    font-weight: 900;
+
+}
+
+.punch1 {
+    font-size: 15px;
+    margin-left: 100px;
+    font-weight: 900;
+
+}
+
+.form {
+    align-content: center;
+    margin-left: 80px;
+
+}
+
+.fix {
+    line-break: loose;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    border-radius: 1px;
+    font-size: 15px;
+    box-shadow: -8px -8px 15px rgba(167, 27, 27, 0.1) ,5px 5px 15px rgba(0,0,0,0.2);
+    /* background: transparent; */
+}
+
+.sub:hover {
+    background-color: rgb(55, 55, 180);
+
+}
+
+.sub {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+
+    font-weight: bold;
+    margin-left: 90px;
+    background-color: rgb(70, 107, 176);
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.sp {
+
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 0.01fr 0.01fr 0.01fr;
+    margin-left: 110px;
+    margin-bottom: 0px;
+}
+
+.add {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.last {
+    font-size: 10px;
+    margin-left: 90px;
+    margin-top: 0px;
+    font-weight: bold;
+
+}
+
+/* CSS for registered.html file  */
+.regis {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+
+}
+
+.reg {
+    background-image: url(https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 2fr 2fr;
+
+}
+
+.ipregister {
+    text-align: center;
+    font-weight: bold;
+}
+
+.divreg {
+    text-align: center;
+
+}
+
+/* CSS for create.html file  */
+.create {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+
+
+
+}
+
+.ipcreate {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.lbcreate {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.change {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(44, 104, 202, 0.916);
+    font-weight: bold;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.change:hover {
+    background-color: rgb(13, 77, 138);
+}
+
+.bgcreate {
+    background-image: url(https://images.pexels.com/photos/208147/pexels-photo-208147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CSS for forget.html file */
+
+.bgforget {
+    background-image: url(https://images.pexels.com/photos/7150642/pexels-photo-7150642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.forget {
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 80px;
+}
+
+.lbforget {
+    font-size: 25px;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.ipforget {
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.6;
+    height: 30px;
+}
+
+.proceed {
+    background-color: rgba(44, 104, 202, 0.916);
+    font-weight: bold;
+    font-size: 17px;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+}
+
+.proceed:hover {
+    background-color: rgb(13, 77, 138);
+
+}
